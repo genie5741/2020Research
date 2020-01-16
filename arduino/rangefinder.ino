@@ -3,8 +3,8 @@ const int echoPin = 12;
 
 long duration;
 int distance;
-char temp;
-bool flag = 0;
+String temp;
+bool flag;
 
 void setup() {
   pinMode(trigPin, OUTPUT);
@@ -27,10 +27,10 @@ int get_distance(){
 
 
 void loop() {
-  if(Serial.available()) {
-    temp = Serial.read();
-    if (temp == 49) flag = 1;  //ascii 49 = 1
-    else if (temp == 48) flag = 0;  //ascii 48 = 0
+  if(Serial.available()){
+    temp = Serial.readStringUntil('\n');
+    if (temp == "on") flag = 1;  //ascii 49 = 1
+    else if (temp == "off") flag = 0;  //ascii 48 = 0
   }
 
   if(flag) Serial.println(distance); //unit: cm

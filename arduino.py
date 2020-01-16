@@ -6,7 +6,7 @@ class arduino:
         c = client()
 
     def start_sensor(self):
-        self.c.input("1")
+        self.c.input("on")
 
     def stop_sensor(self):
-        self.c.input("0")
+        self.c.input("off")
