@@ -26,7 +26,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -64,10 +65,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1194" y="185" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578897580584" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1578897308876">
+    <state x="461" y="162" key="SettingsEditor" timestamp="1579158672900">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578897308876" />
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579158672900" />
     <state x="1305" y="689" key="com.intellij.ide.util.TipDialog" timestamp="1578897337247">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
