@@ -2,6 +2,7 @@
   <dictionary name="user-cs101">
     <words>
       <w>arduino</w>
+      <w>movemotor</w>
       <w>stdin</w>
     </words>
   </dictionary>

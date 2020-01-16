@@ -2,7 +2,7 @@ import paramiko
 
 
 class client:
-    def __init__(self, addrtess, name, pw):
+    def __init__(self, address, name, pw):
         self.client = paramiko.SSHClient()
         self.client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
         self.client.connect(address, username=name, password=pw)
@@ -15,12 +15,14 @@ class client:
             self.data = self.stdout.read(1)
 
     def input(self, cmd):
-        self.stdin, self.stdout, self.stderr = self.client.exec_command(cmd)
-        self.stdin.write(cmd)
-        self.stdin.flush()
-        self.data = self.stdout()
+        stdin, stdout, stderr = self.client.exec_command(cmd)
+        stdin.write(cmd)
+        stdin.flush()
+        data = stdout.read()
 
         self.clear_output()
+
+        return data
 
     def close(self):
         self.client.close()

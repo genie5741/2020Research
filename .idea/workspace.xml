@@ -31,6 +31,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user-cs101\Documents\GitHub\Wave_Generator\ev3" />
       <recent name="C:\Users\user-cs101\PycharmProjects\Wave_Generator" />
       <recent name="C:\Users\user-cs101\PycharmProjects\Wave_Generator\ssh" />
     </key>
@@ -48,7 +49,7 @@
     </option>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\user-cs101\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,22 +61,44 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="179" key="#Inspections" timestamp="1579169358827">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="179" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1579169358827" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579158983447">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579158983447" />
     <state x="1194" y="185" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1578897580584">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1194" y="185" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578897580584" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1579158672900">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1579159045823">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579158672900" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579159045823" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1579159051298">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579159051298" />
     <state x="1305" y="689" key="com.intellij.ide.util.TipDialog" timestamp="1578897337247">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1305" y="689" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578897337247" />
-    <state x="1244" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578901627530">
+    <state x="810" y="370" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579161023311">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1244" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578901627530" />
+    <state x="810" y="370" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579161023311" />
   </component>
 </project>

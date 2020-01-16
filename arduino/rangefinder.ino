@@ -29,9 +29,9 @@ int get_distance(){
 void loop() {
   if(Serial.available()) {
     temp = Serial.read();
-    if (temp == '1') flag = 1;
-    else if (temp == '0') flag = 0;
+    if (temp == 49) flag = 1;  //ascii 49 = 1
+    else if (temp == 48) flag = 0;  //ascii 48 = 0
   }
-  Serial.print(distance);
-  Serial.println("CM");
+
+  if(flag) Serial.println(distance); //unit: cm
 }

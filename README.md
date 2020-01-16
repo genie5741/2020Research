@@ -13,7 +13,13 @@ links :
 
 
 
-to do :  
-ev3/motor.py
-ev3.py
-main.py
+./Wave_Generator  
+    /arduino  
+        rangefinder.ino  # done  
+    /ev3  
+        movemotor.py  # done  
+    /ssh  
+        client.py  # done  
+    arduino.py  
+    ev3.py  # need to test  
+    main.py
