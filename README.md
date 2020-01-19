@@ -2,6 +2,8 @@
  wave generator for 2020 project  
  Code by Woojin Kim.
 
+## Flowchart
+<img width="300" src="https://user-images.githubusercontent.com/34810033/72675914-9bd01200-3ace-11ea-801f-ff7fcaa4d276.PNG"></img>
 
 
 ## Install
