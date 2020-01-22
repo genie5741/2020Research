@@ -1,19 +1,12 @@
 import serial
 
 
-arduino = serial.Serial('COM3', 9600)
+class arduino:
+    def __init__(self, port, baudrate):
+        self.client = serial.Serial(port, baudrate)
 
-while True:
-    c = input()
-    if c == 'q':
-        break
+    def on(self):
+        self.client.write('1')
 
-    if c == 'on':
-        arduino.write(b'1')
-
-    if c == 'off':
-        arduino.write(b'0')
-
-    else:
-        c = c.encode('utf-8')
-        arduino.write()
+    def off(self):
+        self.client.write('0')
