@@ -2,3 +2,4 @@
 
 # pycharm idea folder
 .idea/
+*.pyc
