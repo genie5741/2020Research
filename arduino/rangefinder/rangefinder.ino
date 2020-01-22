@@ -25,12 +25,11 @@ int get_distance(){
   return distance;
 }
 
-
 void loop() {
-  if(Serial.available()){
-    temp = Serial.readStringUntil('\n');
-    if (temp == "on") flag = 1;  //ascii 49 = 1
-    else if (temp == "off") flag = 0;  //ascii 48 = 0
+  if(Serial.available()) {
+    temp = Serial.read();
+    if (temp == '1') flag = 1;
+    else if (temp == '0') flag = 0;
   }
 
   if(flag) Serial.println(get_distance()); //unit: cm
