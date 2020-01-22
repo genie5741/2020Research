@@ -33,5 +33,5 @@ void loop() {
     else if (temp == "off") flag = 0;  //ascii 48 = 0
   }
 
-  if(flag) Serial.println(distance); //unit: cm
+  if(flag) Serial.println(get_distance()); //unit: cm
 }
