@@ -1,12 +1,19 @@
-from ssh.client import client
+import serial
 
 
-class arduino:
-    def __init__(self):
-        c = client()
+arduino = serial.Serial('COM3', 9600)
 
-    def start_sensor(self):
-        self.c.input("on")
+while True:
+    c = input()
+    if c == 'q':
+        break
 
-    def stop_sensor(self):
-        self.c.input("off")
+    if c == 'on':
+        arduino.write(b'1')
+
+    if c == 'off':
+        arduino.write(b'0')
+
+    else:
+        c = c.encode('utf-8')
+        arduino.write()
