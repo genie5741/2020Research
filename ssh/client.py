@@ -6,6 +6,7 @@ class client:
         self.client = paramiko.SSHClient()
         self.client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
         self.client.connect(address, username=name, password=pw)
+        print("SSH connected")
         self.result = []
 
     def clear_output(self):
