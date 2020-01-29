@@ -10,3 +10,6 @@ class arduino:
 
     def off(self):
         self.client.write('0')
+
+    def read_output(self):
+        return self.client.readline()[:1].decode()
