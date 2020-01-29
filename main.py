@@ -17,9 +17,8 @@ class server:
 
         print(self.ev3_client.read_output())  # it would be "Success"
 
-        self.arduino_client.readline
+        self.data = self.arduino_client.read_output()
         self.arduino_client.off()
-
 
     def visualize_graph(self):
         pass
