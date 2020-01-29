@@ -1,3 +1,6 @@
+// should return time also. should be modified
+
+
 const int trigPin = 13;
 const int echoPin = 12;
 
