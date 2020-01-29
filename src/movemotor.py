@@ -8,20 +8,14 @@ class movemotor:
         self.motor = MoveTank(OUTPUT_A, OUTPUT_C)
 
     def move_for_seconds(self, speed, second):
-        if self.flag:
-            return "wait.."
-
-        self.flag = 1
         self.motor.on_for_seconds(SpeedRPS(speed), SpeedRPS(speed), second)
-        self.flag = 0
+        print("Success")
 
-    def move(self, speed, second):
-        if self.flag:
-            return "wait.."
-
-        self.flag = 1
+    def move(self, speed):
         self.motor.on(SpeedRPS(speed), SpeedRPS(speed))
-        self.flag = 0
+        print("Success")
 
     def stop(self):
         self.motor.stop()
+        print("Stopped")
+
