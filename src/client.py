@@ -7,7 +7,7 @@ class client:
         self.client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
         self.client.connect(address, username=name, password=pw)
         print("SSH connected")
-        self.result = []
+        self.data = []
 
     def clear_output(self):
         self.stdin.write('X\n')
@@ -16,14 +16,15 @@ class client:
             self.data = self.stdout.read(1)
 
     def input(self, cmd):
-        stdin, stdout, stderr = self.client.exec_command(cmd)
-        stdin.write(cmd)
-        stdin.flush()
-        data = stdout.read()
-
         self.clear_output()
 
-        return data
+        self.stdin, self.stdout, self.stderr = self.client.exec_command(cmd)
+        self.stdin.flush()
+
+    def read_output(self):
+        self.data = self.stdout.read()
+
+        return self.data
 
     def close(self):
         self.client.close()
