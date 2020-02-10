@@ -6,7 +6,7 @@ const int echoPin = 12;
 
 long duration;
 int distance;
-String temp;
+char temp;
 bool flag;
 
 void setup() {
