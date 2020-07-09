@@ -7,7 +7,7 @@ class movemotor:
         self.flag = 0
         self.motor = MoveTank(OUTPUT_A, OUTPUT_C)
 
-    def move_for_seconds(self, speed, second):
+    def move_for_seconds(self, speed, second):  # 각속도
         self.motor.on_for_seconds(SpeedRPS(speed), SpeedRPS(speed), second)
         print("Success")
 
