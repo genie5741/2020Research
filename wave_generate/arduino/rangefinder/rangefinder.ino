@@ -37,7 +37,7 @@ void loop() {
 
   if(flag){
     Serial.print(time,1);
-    Serial.print(",");
+    Serial.print(" ");
     Serial.println(get_distance());  //unit: cm
     delay(100);
 
